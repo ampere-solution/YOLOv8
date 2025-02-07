@@ -50,7 +50,7 @@ sudo microk8s enable dashboard
 ![Kubernetes Dashboard](dashboard-yolov8.png)
 
 ## Deploy YOLOv8 Demo
-#### 1. Create ollama-chat namespace
+#### 1. Create yolov8 namespace
 ```kubectl create namespace yolov8```
 
 #### 2. Download yolov8-k8s-deployment.yaml into a folder to deploy YOLOv8 Demo
@@ -59,4 +59,4 @@ sudo microk8s enable dashboard
 
 #### Demo UI
 
-![Ollama-chat](ollama-chat.png)
+![yolov8](yolov8.png)
