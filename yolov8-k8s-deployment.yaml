@@ -85,7 +85,7 @@ metadata:
     kubernetes.io/ingress.class: public
 spec:
   rules:
-  - host: "yolov8.apps.amperedemo.site" 
+  - host: "yolov8.dns.name" 
     http:
       paths:
       - path: /
