@@ -47,5 +47,5 @@ sudo microk8s enable dashboard
 #### 14. Acess your dashboard webUI via http://use.your.dns.name
 
 #### 15. Enter the token you created in the previous step to login the Kubernetes Dashboard
-![Kubernetes Dashboard](dashboard-ollama.png)
+![Kubernetes Dashboard](dashboard-yolov8.png)
 
