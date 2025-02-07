@@ -49,3 +49,14 @@ sudo microk8s enable dashboard
 #### 15. Enter the token you created in the previous step to login the Kubernetes Dashboard
 ![Kubernetes Dashboard](dashboard-yolov8.png)
 
+## Deploy YOLOv8 Demo
+#### 1. Create ollama-chat namespace
+```kubectl create namespace yolov8```
+
+#### 2. Download yolov8-k8s-deployment.yaml into a folder to deploy YOLOv8 Demo
+*Note: use your dns name in the host of ingress section in the file*
+```kubectl apply -f yolov8-k8s-deployment.yaml -n yolov8```
+
+#### Demo UI
+
+![Ollama-chat](ollama-chat.png)
