@@ -1,4 +1,7 @@
 # YOLOv8 on Ampere processors
+YOLOv8 (You Only Look Once version 8) is the version 8 of the YOLO (You Only Look Once) series of real-time object detection models, developed by Ultralytics. 
+It is designed for object detection, image segmentation, and classification, offering improved performance, speed, and ease of use compared to previous YOLO versions.
+
 ## Prepare and Deploy Single Node Microk8s (Ubuntu 22.04)
 #### 1. Update Ubuntu OS
 ```sudo apt update && sudo apt upgrade -y```
